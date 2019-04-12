@@ -13,4 +13,4 @@ else
 {
     Write-Host "Microsoft Edge Preview is not installed."
     exit 1
-} 
+}
