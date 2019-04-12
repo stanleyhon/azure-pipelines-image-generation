@@ -19,14 +19,3 @@ New-ItemProperty "HKLM:\SOFTWARE\Policies\Microsoft\MicrosoftEdgeUpdate" -Name "
 New-ItemProperty "HKLM:\SOFTWARE\Policies\Microsoft\MicrosoftEdgeUpdate" -Name "UpdateDefault" -Value 00000000 -Force
 New-ItemProperty "HKLM:\SOFTWARE\Policies\Microsoft\MicrosoftEdgeUpdate" -Name "DisableAutoUpdateChecksCheckboxValue" -Value 00000001 -Force
 New-ItemProperty "HKLM:\SOFTWARE\Policies\Microsoft\MicrosoftEdgeUpdate" -Name "Update{8A69D345-D564-463C-AFF1-A69D9E530F96}" -Value 00000000 -Force
-
-
-
-
-
-
-
-
-
-
-
