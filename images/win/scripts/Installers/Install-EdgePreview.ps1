@@ -9,7 +9,7 @@ Import-Module -Name ImageHelpers -Force
 $temp_install_dir = 'C:\Windows\Installer'
 New-Item -Path $temp_install_dir -ItemType Directory -Force
 
-Install-EXE -Url "https://go.microsoft.com/fwlink/?linkid=2069324&Channel=Dev&language=en-us&Consent=1&IID=bd168e91-1750-5047-9def-929b062800ca" -Name "MicrosoftEdgeSetup.exe" -ArgumentList "/silent /install"
+Install-EXE -Url "https://go.microsoft.com/fwlink/?linkid=2069324&Channel=Dev&language=en-us&Consent=1" -Name "MicrosoftEdgeSetup.exe" -ArgumentList "/silent /install"
 
 # Add some things to stop Edge from auto updating.
 New-NetFirewallRule -DisplayName "BlockEdgeUpdate" -Direction Outbound -Action Block -Program "C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"
