@@ -12,15 +12,17 @@ You can follow releases [here](https://github.com/Microsoft/azure-pipelines-imag
 Subscribe to [this RSS feed](https://microsoft.github.io/azure-pipelines-image-generation/) to be notified of upcoming image changes and other important messages. General Azure Pipelines service health is found [here](https://status.dev.azure.com/).
 
 # Image contents
+Images that have badges can be clicked on to see the latest contents for that version of the image.
+Images that are partially deployed have a yellow badge with a percentage indicating how far this image has been deployed across Azure Pipelines.
 
 - [macOS 10.13](images/macos/macos-10.13-Readme.md)
 - [macOS 10.14](images/macos/macos-10.14-Readme.md)
-- [Ubuntu 16.04](images/linux/Ubuntu1604-README.md)
-- [Ubuntu 18.04](images/linux/Ubuntu1804-README.md)
-- [VS 2019 + Windows Server 2019](images/win/Vs2019-Server2019-Readme.md)
-- [VS 2017 + Windows Server 2016](images/win/Vs2017-Server2016-Readme.md)
+- Ubuntu 16.04 [![](https://aka.ms/image_gen_status?imageName=Ubuntu16&badge=1&azp=1)](https://aka.ms/image_gen_status?imageName=Ubuntu16&redirect=1&azp=1)
+- Ubuntu 18.04 [![](https://aka.ms/image_gen_status?imageName=Ubuntu18&badge=1&azp=1)](https://aka.ms/image_gen_status?imageName=Ubuntu18&redirect=1&azp=1)
+- VS 2019 + Windows Server 2019 [![](https://aka.ms/image_gen_status?imageName=windows-2019-vs2019&badge=1&azp=1)](https://aka.ms/image_gen_status?imageName=windows-2019-vs2019&redirect=1&azp=1)
+- VS 2017 + Windows Server 2016 [![](https://aka.ms/image_gen_status?imageName=VS2017&badge=1&azp=1)](https://aka.ms/image_gen_status?imageName=VS2017&redirect=1&azp=1)
 - [VS 2015 + Windows Server 2012 R2](images/win/Vs2015-Server2012R2-Readme.md)
-- [Windows Container 1803](images/win/WindowsContainer1803-Readme.md)
+- Windows Container 1803 [![](https://aka.ms/image_gen_status?imageName=WINCON&badge=1&azp=1)](https://aka.ms/image_gen_status?imageName=WINCON&redirect=1&azp=1)
 
 ## Issues and requests
 
