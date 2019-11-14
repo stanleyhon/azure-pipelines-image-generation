@@ -13,8 +13,8 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 ### Language and Runtime
 
 - Java 1.7: OpenJDK Runtime Environment (Zulu 7.34.0.5-CA-macosx) (build 1.7.0_242-b7)
-- Java 1.8: OpenJDK Runtime Environment (Zulu 8.42.0.21-CA-macosx) (build 1.8.0_232-b18) (default)
-- Java 11: OpenJDK Runtime Environment Zulu11.35+13-CA (build 11.0.5+10-LTS)
+- Java 1.8: OpenJDK Runtime Environment (Zulu 8.42.0.23-CA-macosx) (build 1.8.0_232-b18) (default)
+- Java 11: OpenJDK Runtime Environment Zulu11.35+15-CA (build 11.0.5+10-LTS)
 - Java 12: OpenJDK Runtime Environment Zulu12.3+11-CA (build 12.0.2+3)
 - Java 13: OpenJDK Runtime Environment Zulu13.28+11-CA (build 13.0.1+10-MTS)
 - Node.js 6.17.0
@@ -24,6 +24,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 	v8.16.2
 	v10.17.0
 	v12.13.0
+	v13.1.0
 - PowerShell 6.2.3
 - Python 2.7.17
 - Python 3.7.5
@@ -36,7 +37,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Bundler 2.0.2
 - Carthage 0.34.0
 - CocoaPods 1.8.4
-- Homebrew 2.1.15
+- Homebrew 2.1.16
 - NPM 3.10.10
 - Yarn 1.19.1
 - NuGet 4.7.0.5148
@@ -51,12 +52,12 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 ### Utilities
 
-- curl 7.66.0 (x86_64-apple-darwin17.7.0) libcurl/7.66.0 SecureTransport zlib/1.2.11
-- Git 2.23.0
+- curl 7.67.0 (x86_64-apple-darwin17.7.0) libcurl/7.67.0 SecureTransport zlib/1.2.11
+- Git 2.24.0
 - Git LFS 2.8.0
 - GNU Wget 1.20.3
 - Subversion (SVN) 1.12.2
-- GNU parallel 20190922
+- GNU parallel 20191022
 
 ### Tools
 
@@ -311,7 +312,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Visual Studio for Mac
 
-- 8.3.5.13
+- 8.3.7.1
 
 ### Mono
 
@@ -331,6 +332,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Xamarin.iOS SDK
 
+- 13.6.0.12
 - 13.4.0.2
 - 13.2.0.47
 - 12.14.0.114
@@ -352,6 +354,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Xamarin.Android SDK
 
+- 10.0.6.2
 - 10.0.3.0
 - 9.4.1.0
 - 9.3.0-23
@@ -370,6 +373,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Xamarin.Mac SDK
 
+- 6.6.0.12
 - 6.4.0.2
 - 6.2.0.47
 - 5.16.1.24
