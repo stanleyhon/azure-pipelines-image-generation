@@ -48,7 +48,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 ### Project Management
 
 - Apache Maven 3.6.2
-- Gradle 5.6.4
+- Gradle 6.0
 
 ### Utilities
 
@@ -56,14 +56,14 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Git 2.24.0
 - Git LFS 2.8.0
 - GNU Wget 1.20.3
-- Subversion (SVN) 1.12.2
+- Subversion (SVN) 1.13.0
 - GNU parallel 20191022
 
 ### Tools
 
-- fastlane 2.134.0
+- fastlane 2.136.0
 - App Center CLI 1.2.2
-- Azure-CLI 2.0.75
+- Azure-CLI 2.0.76
 
 ### Pre-cached tools
 - Python (available through the [Use Python Version](https://go.microsoft.com/fwlink/?linkid=871498) task)
@@ -100,7 +100,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Nomad CLI IPA 0.14.3
 - xcpretty 0.3.0
 - xctool 0.3.5
-- xcversion 2.6.2
+- xcversion 2.6.3
 
 ### Installed SDKs
 | SDK                       | SDK name    | Xcode Version |
@@ -312,7 +312,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Visual Studio for Mac
 
-- 8.3.7.1
+- 8.3.8.8
 
 ### Mono
 
