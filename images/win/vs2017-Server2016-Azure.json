@@ -20,7 +20,7 @@
         "commit_file": "C:\\image\\commit.txt",
         "metadata_file": "C:\\image\\metadata.txt",
         "helper_script_folder": "C:\\Program Files\\WindowsPowerShell\\Modules\\",
-        "commit_url": "",
+        "commit_url": "LATEST",
         "install_user": "installer",
         "install_password": null,
         "capture_name_prefix": "packer",
