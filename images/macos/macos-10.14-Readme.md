@@ -49,7 +49,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 ### Project Management
 
 - Apache Maven 3.6.2
-- Gradle 5.6.4
+- Gradle 6.0
 
 ### Utilities
 
@@ -57,14 +57,14 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Git 2.24.0
 - Git LFS 2.8.0
 - GNU Wget 1.20.3
-- Subversion (SVN) 1.12.2
+- Subversion (SVN) 1.13.0
 - GNU parallel 20191022
 
 ### Tools
 
-- fastlane 2.134.0
+- fastlane 2.136.0
 - App Center CLI 1.2.2
-- Azure-CLI 2.0.75
+- Azure-CLI 2.0.76
 
 ### Pre-cached tools
 
@@ -83,18 +83,19 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 ### Xcode
 
-| Version                | Build   | Path                            |
-|------------------------|---------|---------------------------------|
-| 11.2.1                 | 11B53   | /Applications/Xcode_11.2.1.app  |
-| 11.2                   | 11B52   | /Applications/Xcode_11.2.app    |
-| 11.1                   | 11A1027 | /Applications/Xcode_11.1.app    |
-| 11.0                   | 11A420a | /Applications/Xcode_11.app      |
-| 10.3                   | 10G8    | /Applications/Xcode_10.3.app    |
-| 10.2.1                 | 10E1001 | /Applications/Xcode_10.2.1.app  |
-| 10.2                   | 10E125  | /Applications/Xcode_10.2.app    |
-| 10.1                   | 10B61   | /Applications/Xcode_10.1.app    |
-| 10.0                   | 10A255  | /Applications/Xcode_10.app      |
-| 9.4.1                  | 9F2000  | /Applications/Xcode_9.4.1.app   |
+| Version                | Build   | Path                             |
+|------------------------|---------|----------------------------------|
+| 11.3_beta              | 11C24b  | /Applications/Xcode_11.3_beta.app|
+| 11.2.1                 | 11B53   | /Applications/Xcode_11.2.1.app   |
+| 11.2                   | 11B52   | /Applications/Xcode_11.2.app     |
+| 11.1                   | 11A1027 | /Applications/Xcode_11.1.app     |
+| 11.0                   | 11A420a | /Applications/Xcode_11.app       |
+| 10.3                   | 10G8    | /Applications/Xcode_10.3.app     |
+| 10.2.1                 | 10E1001 | /Applications/Xcode_10.2.1.app   |
+| 10.2                   | 10E125  | /Applications/Xcode_10.2.app     |
+| 10.1                   | 10B61   | /Applications/Xcode_10.1.app     |
+| 10.0                   | 10A255  | /Applications/Xcode_10.app       |
+| 9.4.1                  | 9F2000  | /Applications/Xcode_9.4.1.app    |
 
 ### Xcode Support Tools
 
@@ -102,7 +103,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Nomad CLI IPA 0.14.3
 - xcpretty 0.3.0
 - xctool 0.3.6
-- xcversion 2.6.2
+- xcversion 2.6.3
 
 ### Installed SDKs
 
@@ -305,7 +306,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Visual Studio for Mac
 
-- 8.3.7.1
+- 8.3.8.8
 
 
 ### Mono
