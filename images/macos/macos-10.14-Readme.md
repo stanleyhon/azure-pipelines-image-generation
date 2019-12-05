@@ -23,8 +23,8 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 	v6.17.1
 	v8.16.2
 	v10.17.0
-	v12.13.0
-	v13.1.0
+	v12.13.1
+	v13.2.0
 - PowerShell 6.2.3
 - Python 2.7.17
 - Python 3.7.5
@@ -38,7 +38,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Bundler 2.0.2
 - Carthage 0.34.0
 - CocoaPods 1.8.4
-- Homebrew 2.1.15
+- Homebrew 2.2.0
 - NPM 3.10.10
 - Yarn 1.19.1
 - NuGet 4.7.0.5148
@@ -48,23 +48,23 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 ### Project Management
 
-- Apache Maven 3.6.2
-- Gradle 6.0
+- Apache Maven 3.6.3
+- Gradle 6.0.1
 
 ### Utilities
 
 - curl 7.67.0 (x86_64-apple-darwin17.7.0) libcurl/7.67.0 SecureTransport zlib/1.2.11)
 - Git 2.24.0
 - Git LFS 2.8.0
-- GNU Wget 1.20.3
+- GNU Wget 1.20.3 built on darwin18.7.0
 - Subversion (SVN) 1.13.0
-- GNU parallel 20191022
+- GNU parallel 20191122
 
 ### Tools
 
-- fastlane 2.136.0
+- fastlane 2.137.0
 - App Center CLI 1.2.2
-- Azure-CLI 2.0.76
+- Azure-CLI 2.0.77
 
 ### Pre-cached tools
 
