@@ -480,7 +480,7 @@ _Environment:_
 
 ## Node.js
 
-_Version:_ 10.16.3<br/>
+_Version:_ 12.13.0<br/>
 _Architecture:_ x64<br/>
 _Environment:_
 * PATH: contains location of node.exe<br/>
