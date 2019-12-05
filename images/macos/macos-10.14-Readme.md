@@ -306,7 +306,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Visual Studio for Mac
 
-- 8.3.8.8
+- 8.3.10.2
 
 
 ### Mono
