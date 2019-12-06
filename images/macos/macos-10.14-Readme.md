@@ -1,36 +1,17 @@
 # Azure Pipelines hosted macOS image
-									  
-											
-			   
-				  
-				   
-				   
-				 
-												
-						
-				
-   
 
 The following software is installed on machines in the Azure Pipelines **macOS-10.14** VM image ('Hosted macOS' pool).
 
 #### Xcode 11.1 set by default
 
 ## Operating System
-		 
-																						 
-
-																																		
 
 - OS X 10.14.6 (18G1012) **Mojave**
-																			   
-
-																													   
 
 ## Installed Software
 
 ### Language and Runtime
 
-						
 - Java 1.7: OpenJDK Runtime Environment (Zulu 7.34.0.5-CA-macosx) (build 1.7.0_242-b7)
 - Java 1.8: OpenJDK Runtime Environment (Zulu 8.42.0.23-CA-macosx) (build 1.8.0_232-b18) (default)
 - Java 11: OpenJDK Runtime Environment Zulu11.35+15-CA (build 11.0.5+10-LTS)
@@ -50,16 +31,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Ruby 2.6.5p114
 - .NET Core SDK 1.0.1 1.0.4 1.1.10 1.1.11 1.1.12 1.1.13 1.1.4 1.1.5 1.1.7 1.1.8 1.1.9 2.0.0 2.0.3 2.1.100 2.1.101 2.1.102 2.1.103 2.1.104 2.1.105 2.1.2 2.1.200 2.1.201 2.1.202 2.1.300 2.1.301 2.1.302 2.1.4 2.1.400 2.1.401 2.1.402 2.1.403 2.1.500 2.1.502 2.1.503 2.1.504 2.1.505 2.2.100 2.2.101 2.2.102 2.2.103 2.2.104 2.2.105
 - Go 1.13.4
-				  
-														
-										 
 
-					
-		 
-		 
-		  
-		  
-		 
 
 ### Package Management
 
@@ -124,14 +96,6 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 | 10.1                   | 10B61   | /Applications/Xcode_10.1.app     |
 | 10.0                   | 10A255  | /Applications/Xcode_10.app       |
 | 9.4.1                  | 9F2000  | /Applications/Xcode_9.4.1.app    |
-									
-									
-									
-									
-									
-									
-									
-									
 
 ### Xcode Support Tools
 
@@ -246,20 +210,17 @@ xcversion simulators --install='iOS 8.4'
 
 ### Android SDK Tools
 
-
 | Package name          | Description                                 |
 |-----------------------|---------------------------------------------|
 | tools                 | Android SDK Tools, revision 26.1.1          |
 
 ### Android SDK Platform-tools
 
-
 | Package name          | Description                                 |
 |-----------------------|---------------------------------------------|
 | platform-tools        | Android SDK Platform-tools, revision 29.0.5 |
 
 ### Android SDK Platforms
-
 
 | Package name          | Description                               |
 |-----------------------|-------------------------------------------|
@@ -280,7 +241,6 @@ xcversion simulators --install='iOS 8.4'
 | android-29            | Android SDK Platform 29, Revision 3       |
 
 ### Android SDK Build-tools
-
 
 | Package name          | Description                               |
 |-----------------------|-------------------------------------------|
@@ -317,7 +277,6 @@ xcversion simulators --install='iOS 8.4'
 
 ### Utils
 
-
 | Package name          | Description                               |
 |-----------------------|-------------------------------------------|
 | cmake                 | 3.6.4111459                               |
@@ -327,7 +286,6 @@ xcversion simulators --install='iOS 8.4'
 | Android Emulator      | 29.2.1                                    |
 
 ### Google APIs
-
 
 | Package name          | Description                               |
 |-----------------------|-------------------------------------------|
@@ -344,14 +302,6 @@ xcversion simulators --install='iOS 8.4'
 | extra-google-google_play_services | Google Play services, revision 49        |
 | extra-google-m2repository         | Google Repository, revision 58           |
 | Hardware_Accelerated_Execution_Manager | Intel x86 Emulator Accelerator 7.3.2 |
-
-																					 
-																					 
-																					 
-																					 
-																					 
-																					 
-																					 
 
 ## Xamarin
 
