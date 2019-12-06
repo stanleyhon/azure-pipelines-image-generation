@@ -1,17 +1,36 @@
 # Azure Pipelines hosted macOS image
+									  
+											
+			   
+				  
+				   
+				   
+				 
+												
+						
+				
+   
 
 The following software is installed on machines in the Azure Pipelines **macOS-10.14** VM image ('Hosted macOS' pool).
 
 #### Xcode 11.1 set by default
 
 ## Operating System
+		 
+																						 
+
+																																		
 
 - OS X 10.14.6 (18G1012) **Mojave**
+																			   
+
+																													   
 
 ## Installed Software
 
 ### Language and Runtime
 
+						
 - Java 1.7: OpenJDK Runtime Environment (Zulu 7.34.0.5-CA-macosx) (build 1.7.0_242-b7)
 - Java 1.8: OpenJDK Runtime Environment (Zulu 8.42.0.23-CA-macosx) (build 1.8.0_232-b18) (default)
 - Java 11: OpenJDK Runtime Environment Zulu11.35+15-CA (build 11.0.5+10-LTS)
@@ -31,7 +50,16 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Ruby 2.6.5p114
 - .NET Core SDK 1.0.1 1.0.4 1.1.10 1.1.11 1.1.12 1.1.13 1.1.4 1.1.5 1.1.7 1.1.8 1.1.9 2.0.0 2.0.3 2.1.100 2.1.101 2.1.102 2.1.103 2.1.104 2.1.105 2.1.2 2.1.200 2.1.201 2.1.202 2.1.300 2.1.301 2.1.302 2.1.4 2.1.400 2.1.401 2.1.402 2.1.403 2.1.500 2.1.502 2.1.503 2.1.504 2.1.505 2.2.100 2.2.101 2.2.102 2.2.103 2.2.104 2.2.105
 - Go 1.13.4
+				  
+														
+										 
 
+					
+		 
+		 
+		  
+		  
+		 
 
 ### Package Management
 
@@ -40,7 +68,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - CocoaPods 1.8.4
 - Homebrew 2.2.0
 - NPM 3.10.10
-- Yarn 1.19.1
+- Yarn 1.19.2
 - NuGet 4.7.0.5148
 - pip 19.3.1(python 2.7)
 - pip 19.3.1(python 3.7)
@@ -96,6 +124,14 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 | 10.1                   | 10B61   | /Applications/Xcode_10.1.app     |
 | 10.0                   | 10A255  | /Applications/Xcode_10.app       |
 | 9.4.1                  | 9F2000  | /Applications/Xcode_9.4.1.app    |
+									
+									
+									
+									
+									
+									
+									
+									
 
 ### Xcode Support Tools
 
@@ -110,8 +146,8 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 | SDK                       | SDK name    |Xcode Version |
 |---------------------------|-------------|--------------|
 | macOS 10.13               | macosx10.13 | 9.4.1        |
-| macOS 10.14               | macosx10.14 | 10.0, 10.1, 10.2, 10.2.1, 10.3 |
-| macOS 10.15               | macosx10.15 | 11.0, 11.1, 11.2, 11.2.1 |
+| macOS 10.14               | macosx10.14 | 10.0, 10.1, 10.2, 10.2.1, 10.3, 11.3_beta |
+| macOS 10.15               | macosx10.15 | 11.0, 11.1, 11.2, 11.2.1, 11.3_beta |
 | iOS 11.4                  | iphoneos11.4 | 9.4.1       |
 | iOS 12.0                  | iphoneos12.0 | 10.0        |
 | iOS 12.1                  | iphoneos12.1 | 10.1        |
@@ -119,7 +155,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 | iOS 12.4                  | iphoneos12.4 | 10.3        |
 | iOS 13.0                  | iphoneos13.0 | 11.0        |
 | iOS 13.1                  | iphoneos13.1 | 11.1        |
-| iOS 13.2                  | iphoneos13.2 | 11.2, 11.2.1        |
+| iOS 13.2                  | iphoneos13.2 | 11.2, 11.2.1, 11.3_beta |
 | iOS Simulator 11.4        | iphonesimulator11.4 | 9.4.1    |
 | iOS Simulator 12.0        | iphonesimulator12.0 | 10.0     |
 | iOS Simulator 12.1        | iphonesimulator12.1 | 10.1     |
@@ -127,36 +163,36 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 | iOS Simulator 12.4        | iphonesimulator12.4 | 10.3     |
 | iOS Simulator 13.0        | iphonesimulator13.0 | 11.0     |
 | iOS Simulator 13.1        | iphonesimulator13.1 | 11.1     |
-| iOS Simulator 13.2        | iphonesimulator13.2 | 11.2, 11.2.1     |
+| iOS Simulator 13.2        | iphonesimulator13.2 | 11.2, 11.2.1, 11.3_beta |
 | tvOS 11.4                 | appletvos11.4 | 9.4.1          |
 | tvOS 12.0                 | appletvos12.0 | 10.0           |
 | tvOS 12.1                 | appletvos12.1 | 10.1           |
 | tvOS 12.2                 | appletvos12.2 | 10.2, 10.2.1   |
 | tvOS 12.4                 | appletvos12.4 | 10.3           |
 | tvOS 13.0                 | appletvos13.0 | 11.0, 11.1     |
-| tvOS 13.2                 | appletvos13.2 | 11.2, 11.2.1   |
+| tvOS 13.2                 | appletvos13.2 | 11.2, 11.2.1, 11.3_beta |
 | tvOS Simulator 11.4       | appletvsimulator11.4 | 9.4.1   |
 | tvOS Simulator 12.0       | appletvsimulator12.0 | 10.0    |
 | tvOS Simulator 12.1       | appletvsimulator12.1 | 10.1    |
 | tvOS Simulator 12.2       | appletvsimulator12.2 | 10.2, 10.2.1 |
 | tvOS Simulator 12.4       | appletvsimulator12.4 | 10.3    |
 | tvOS Simulator 13.0       | appletvsimulator13.0 | 11.0, 11.1 |
-| tvOS Simulator 13.2       | appletvsimulator13.2 | 11.2, 11.2.1    |
+| tvOS Simulator 13.2       | appletvsimulator13.2 | 11.2, 11.2.1, 11.3_beta |
 | watchOS 4.3               | watchos4.3 | 9.4.1         |
 | watchOS 5.0               | watchos5.0 | 10.0          |
 | watchOS 5.1               | watchos5.1 | 10.1          |
 | watchOS 5.2               | watchos5.2 | 10.2, 10.2.1  |
 | watchOS 5.3               | watchos5.3 | 10.3          |
 | watchOS 6.0               | watchos6.0 | 11.0, 11.1    |
-| watchOS 6.1               | watchos6.1 | 11.2, 11.2.1  |
+| watchOS 6.1               | watchos6.1 | 11.2, 11.2.1, 11.3_beta |
 | watchOS Simulator 4.3     | watchsimulator4.3 | 9.4.1         |
 | watchOS Simulator 5.0     | watchsimulator5.0 | 10.0          |
 | watchOS Simulator 5.1     | watchsimulator5.1 | 10.1          |
 | watchOS Simulator 5.2     | watchsimulator5.2 | 10.2, 10.2.1  |
 | watchOS Simulator 5.3     | watchsimulator5.3 | 10.3          |
 | watchOS Simulator 6.0     | watchsimulator6.0 | 11.0, 11.1    |
-| watchOS Simulator 6.1     | watchsimulator6.1 | 11.2, 11.2.1  |
-| DriverKit 19.0            | driverkit.macosx19.0 | 11.0, 11.1, 11.2, 11.2.1 |
+| watchOS Simulator 6.1     | watchsimulator6.1 | 11.2, 11.2.1, 11.3_beta |
+| DriverKit 19.0            | driverkit.macosx19.0 | 11.0, 11.1, 11.2, 11.2.1, 11.3_beta |
 
 
 ### Installed Simulators
@@ -177,10 +213,11 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 | iOS 13.0 (17A577a) | 11         | iPhone 8<br>iPhone 8 Plus<br>iPhone 11<br>iPhone 11 Pro<br>iPhone 11 Pro Max<br>iPad Pro (9.7-inch)<br>iPad Pro<br>iPad Pro (12.9-inch) (3rd generation)<br>iPad Air (3rd generation) |
 | iOS 13.1 (17A844) | 11.1        | iPhone 8<br>iPhone 8 Plus<br>iPhone 11<br>iPhone 11 Pro<br>iPhone 11 Pro Max<br>iPad Pro (9.7-inch)<br>iPad Pro<br>iPad Pro (12.9-inch) (3rd generation)<br>iPad Air (3rd generation) |
 | iOS 13.2 (17B102) | 11.2, 11.2.1     | iPhone 8<br>iPhone 8 Plus<br>iPhone 11<br>iPhone 11 Pro<br>iPhone 11 Pro Max<br>iPad Pro (9.7-inch)<br>iPad (7th generation)<br>iPad Pro<br>iPad Pro (12.9-inch) (3rd generation)<br>iPad Air (3rd generation) |
+																																																																 
 | tvOS 11.4 (15L576)<br>tvOS 12.0 (16J5283n)<br>tvOS 12.1 (16J602)<br>tvOS 12.2 (16L225)<br>tvOS 12.4 (16M567)<br>tvOS 13.0 (17J559)<br>tvOS 13.2 (17K90) | 9.4.1<br>10.0<br>10.1<br>10.2, 10.2.1<br>10.3<br>11.0, 11.1<br>11.2, 11.2.1        | Apple TV<br>Apple TV 4K<br>Apple TV 4K (at 1080p) |
 | watchOS 4.3 (15T212) | 9.4.1        | Apple Watch 38mm<br>Apple Watch 42mm<br>Apple Watch Series 2 38mm<br>Apple Watch Series 2 42mm<br>Apple Watch Series 3 38mm<br>Apple Watch Series 3 42mm |
 | watchOS 5.0 (16R5283q)<br>watchOS 5.1 (16R591)<br>watchOS 5.2 (16T224)<br>watchOS 5.3 (16U567) | 10.0<br>10.1<br>10.2, 10.2.1<br>10.3      | Apple Watch Series 2 38mm<br>Apple Watch Series 2 42mm<br>Apple Watch Series 3 38mm<br>Apple Watch Series 3 42mm<br>Apple Watch Series 4 40mm<br>Apple Watch Series 4 44mm |
-| watchOS 6.0 (17R566)<br><br>watchOS 6.1 (17S80) | 11.0<br>11.1<br>11.2, 11.2.1     | Apple Watch Series 4 40mm<br>Apple Watch Series 4 44mm<br>Apple Watch Series 5 40mm<br>Apple Watch Series 5 44mm |
+| watchOS 6.0 (17R566)<br><br>watchOS 6.1 (17S80) | 11.0<br>11.1<br>11.2, 11.2.1, 11.3_beta    | Apple Watch Series 4 40mm<br>Apple Watch Series 4 44mm<br>Apple Watch Series 5 40mm<br>Apple Watch Series 5 44mm |
 
 
 #### How to install additional simulators?
@@ -209,17 +246,20 @@ xcversion simulators --install='iOS 8.4'
 
 ### Android SDK Tools
 
+
 | Package name          | Description                                 |
 |-----------------------|---------------------------------------------|
 | tools                 | Android SDK Tools, revision 26.1.1          |
 
 ### Android SDK Platform-tools
 
+
 | Package name          | Description                                 |
 |-----------------------|---------------------------------------------|
 | platform-tools        | Android SDK Platform-tools, revision 29.0.5 |
 
 ### Android SDK Platforms
+
 
 | Package name          | Description                               |
 |-----------------------|-------------------------------------------|
@@ -240,6 +280,7 @@ xcversion simulators --install='iOS 8.4'
 | android-29            | Android SDK Platform 29, Revision 3       |
 
 ### Android SDK Build-tools
+
 
 | Package name          | Description                               |
 |-----------------------|-------------------------------------------|
@@ -276,6 +317,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Utils
 
+
 | Package name          | Description                               |
 |-----------------------|-------------------------------------------|
 | cmake                 | 3.6.4111459                               |
@@ -285,6 +327,7 @@ xcversion simulators --install='iOS 8.4'
 | Android Emulator      | 29.2.1                                    |
 
 ### Google APIs
+
 
 | Package name          | Description                               |
 |-----------------------|-------------------------------------------|
@@ -301,6 +344,14 @@ xcversion simulators --install='iOS 8.4'
 | extra-google-google_play_services | Google Play services, revision 49        |
 | extra-google-m2repository         | Google Repository, revision 58           |
 | Hardware_Accelerated_Execution_Manager | Intel x86 Emulator Accelerator 7.3.2 |
+
+																					 
+																					 
+																					 
+																					 
+																					 
+																					 
+																					 
 
 ## Xamarin
 
