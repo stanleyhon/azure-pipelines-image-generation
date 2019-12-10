@@ -23,8 +23,8 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 	v6.17.1
 	v8.16.2
 	v10.17.0
-	v12.13.0
-	v13.1.0
+	v12.13.1
+	v13.2.0
 - PowerShell 6.2.3
 - Python 2.7.17
 - Python 3.7.5
@@ -38,9 +38,9 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Bundler 2.0.2
 - Carthage 0.34.0
 - CocoaPods 1.8.4
-- Homebrew 2.1.15
+- Homebrew 2.2.0
 - NPM 3.10.10
-- Yarn 1.19.1
+- Yarn 1.19.2
 - NuGet 4.7.0.5148
 - pip 19.3.1(python 2.7)
 - pip 19.3.1(python 3.7)
@@ -48,23 +48,23 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 ### Project Management
 
-- Apache Maven 3.6.2
-- Gradle 6.0
+- Apache Maven 3.6.3
+- Gradle 6.0.1
 
 ### Utilities
 
 - curl 7.67.0 (x86_64-apple-darwin17.7.0) libcurl/7.67.0 SecureTransport zlib/1.2.11)
 - Git 2.24.0
 - Git LFS 2.8.0
-- GNU Wget 1.20.3
+- GNU Wget 1.20.3 built on darwin18.7.0
 - Subversion (SVN) 1.13.0
-- GNU parallel 20191022
+- GNU parallel 20191122
 
 ### Tools
 
-- fastlane 2.136.0
+- fastlane 2.137.0
 - App Center CLI 1.2.2
-- Azure-CLI 2.0.76
+- Azure-CLI 2.0.77
 
 ### Pre-cached tools
 
@@ -110,8 +110,8 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 | SDK                       | SDK name    |Xcode Version |
 |---------------------------|-------------|--------------|
 | macOS 10.13               | macosx10.13 | 9.4.1        |
-| macOS 10.14               | macosx10.14 | 10.0, 10.1, 10.2, 10.2.1, 10.3 |
-| macOS 10.15               | macosx10.15 | 11.0, 11.1, 11.2, 11.2.1 |
+| macOS 10.14               | macosx10.14 | 10.0, 10.1, 10.2, 10.2.1, 10.3, 11.3_beta |
+| macOS 10.15               | macosx10.15 | 11.0, 11.1, 11.2, 11.2.1, 11.3_beta |
 | iOS 11.4                  | iphoneos11.4 | 9.4.1       |
 | iOS 12.0                  | iphoneos12.0 | 10.0        |
 | iOS 12.1                  | iphoneos12.1 | 10.1        |
@@ -119,7 +119,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 | iOS 12.4                  | iphoneos12.4 | 10.3        |
 | iOS 13.0                  | iphoneos13.0 | 11.0        |
 | iOS 13.1                  | iphoneos13.1 | 11.1        |
-| iOS 13.2                  | iphoneos13.2 | 11.2, 11.2.1        |
+| iOS 13.2                  | iphoneos13.2 | 11.2, 11.2.1, 11.3_beta |
 | iOS Simulator 11.4        | iphonesimulator11.4 | 9.4.1    |
 | iOS Simulator 12.0        | iphonesimulator12.0 | 10.0     |
 | iOS Simulator 12.1        | iphonesimulator12.1 | 10.1     |
@@ -127,36 +127,36 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 | iOS Simulator 12.4        | iphonesimulator12.4 | 10.3     |
 | iOS Simulator 13.0        | iphonesimulator13.0 | 11.0     |
 | iOS Simulator 13.1        | iphonesimulator13.1 | 11.1     |
-| iOS Simulator 13.2        | iphonesimulator13.2 | 11.2, 11.2.1     |
+| iOS Simulator 13.2        | iphonesimulator13.2 | 11.2, 11.2.1, 11.3_beta |
 | tvOS 11.4                 | appletvos11.4 | 9.4.1          |
 | tvOS 12.0                 | appletvos12.0 | 10.0           |
 | tvOS 12.1                 | appletvos12.1 | 10.1           |
 | tvOS 12.2                 | appletvos12.2 | 10.2, 10.2.1   |
 | tvOS 12.4                 | appletvos12.4 | 10.3           |
 | tvOS 13.0                 | appletvos13.0 | 11.0, 11.1     |
-| tvOS 13.2                 | appletvos13.2 | 11.2, 11.2.1   |
+| tvOS 13.2                 | appletvos13.2 | 11.2, 11.2.1, 11.3_beta |
 | tvOS Simulator 11.4       | appletvsimulator11.4 | 9.4.1   |
 | tvOS Simulator 12.0       | appletvsimulator12.0 | 10.0    |
 | tvOS Simulator 12.1       | appletvsimulator12.1 | 10.1    |
 | tvOS Simulator 12.2       | appletvsimulator12.2 | 10.2, 10.2.1 |
 | tvOS Simulator 12.4       | appletvsimulator12.4 | 10.3    |
 | tvOS Simulator 13.0       | appletvsimulator13.0 | 11.0, 11.1 |
-| tvOS Simulator 13.2       | appletvsimulator13.2 | 11.2, 11.2.1    |
+| tvOS Simulator 13.2       | appletvsimulator13.2 | 11.2, 11.2.1, 11.3_beta |
 | watchOS 4.3               | watchos4.3 | 9.4.1         |
 | watchOS 5.0               | watchos5.0 | 10.0          |
 | watchOS 5.1               | watchos5.1 | 10.1          |
 | watchOS 5.2               | watchos5.2 | 10.2, 10.2.1  |
 | watchOS 5.3               | watchos5.3 | 10.3          |
 | watchOS 6.0               | watchos6.0 | 11.0, 11.1    |
-| watchOS 6.1               | watchos6.1 | 11.2, 11.2.1  |
+| watchOS 6.1               | watchos6.1 | 11.2, 11.2.1, 11.3_beta |
 | watchOS Simulator 4.3     | watchsimulator4.3 | 9.4.1         |
 | watchOS Simulator 5.0     | watchsimulator5.0 | 10.0          |
 | watchOS Simulator 5.1     | watchsimulator5.1 | 10.1          |
 | watchOS Simulator 5.2     | watchsimulator5.2 | 10.2, 10.2.1  |
 | watchOS Simulator 5.3     | watchsimulator5.3 | 10.3          |
 | watchOS Simulator 6.0     | watchsimulator6.0 | 11.0, 11.1    |
-| watchOS Simulator 6.1     | watchsimulator6.1 | 11.2, 11.2.1  |
-| DriverKit 19.0            | driverkit.macosx19.0 | 11.0, 11.1, 11.2, 11.2.1 |
+| watchOS Simulator 6.1     | watchsimulator6.1 | 11.2, 11.2.1, 11.3_beta |
+| DriverKit 19.0            | driverkit.macosx19.0 | 11.0, 11.1, 11.2, 11.2.1, 11.3_beta |
 
 
 ### Installed Simulators
@@ -177,10 +177,11 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 | iOS 13.0 (17A577a) | 11         | iPhone 8<br>iPhone 8 Plus<br>iPhone 11<br>iPhone 11 Pro<br>iPhone 11 Pro Max<br>iPad Pro (9.7-inch)<br>iPad Pro<br>iPad Pro (12.9-inch) (3rd generation)<br>iPad Air (3rd generation) |
 | iOS 13.1 (17A844) | 11.1        | iPhone 8<br>iPhone 8 Plus<br>iPhone 11<br>iPhone 11 Pro<br>iPhone 11 Pro Max<br>iPad Pro (9.7-inch)<br>iPad Pro<br>iPad Pro (12.9-inch) (3rd generation)<br>iPad Air (3rd generation) |
 | iOS 13.2 (17B102) | 11.2, 11.2.1     | iPhone 8<br>iPhone 8 Plus<br>iPhone 11<br>iPhone 11 Pro<br>iPhone 11 Pro Max<br>iPad Pro (9.7-inch)<br>iPad (7th generation)<br>iPad Pro<br>iPad Pro (12.9-inch) (3rd generation)<br>iPad Air (3rd generation) |
-| tvOS 11.4 (15L576)<br>tvOS 12.0 (16J5283n)<br>tvOS 12.1 (16J602)<br>tvOS 12.2 (16L225)<br>tvOS 12.4 (16M567)<br>tvOS 13.0 (17J559)<br>tvOS 13.2 (17K90) | 9.4.1<br>10.0<br>10.1<br>10.2, 10.2.1<br>10.3<br>11.0, 11.1<br>11.2, 11.2.1        | Apple TV<br>Apple TV 4K<br>Apple TV 4K (at 1080p) |
+| iOS 13.3 (17C5032d) | 11.2 11.2.1 11.3_beta | iPhone 8<br>iPhone 8 Plus<br>iPhone 11<br>iPhone 11 Pro<br>iPhone 11 Pro Max<br>iPad Pro (9.7-inch)<br>iPad (7th generation)<br>iPad Pro<br>iPad Pro (12.9-inch) (3rd generation)<br>iPad Air (3rd generation) | 																																																																 
+| tvOS 11.4 (15L576)<br>tvOS 12.0 (16J5283n)<br>tvOS 12.1 (16J602)<br>tvOS 12.2 (16L225)<br>tvOS 12.4 (16M567)<br>tvOS 13.0 (17J559)<br>tvOS 13.2 (17K90) | 9.4.1<br>10.0<br>10.1<br>10.2, 10.2.1<br>10.3<br>11.0, 11.1<br>11.2, 11.2.1, 11.3_beta         | Apple TV<br>Apple TV 4K<br>Apple TV 4K (at 1080p) |
 | watchOS 4.3 (15T212) | 9.4.1        | Apple Watch 38mm<br>Apple Watch 42mm<br>Apple Watch Series 2 38mm<br>Apple Watch Series 2 42mm<br>Apple Watch Series 3 38mm<br>Apple Watch Series 3 42mm |
 | watchOS 5.0 (16R5283q)<br>watchOS 5.1 (16R591)<br>watchOS 5.2 (16T224)<br>watchOS 5.3 (16U567) | 10.0<br>10.1<br>10.2, 10.2.1<br>10.3      | Apple Watch Series 2 38mm<br>Apple Watch Series 2 42mm<br>Apple Watch Series 3 38mm<br>Apple Watch Series 3 42mm<br>Apple Watch Series 4 40mm<br>Apple Watch Series 4 44mm |
-| watchOS 6.0 (17R566)<br><br>watchOS 6.1 (17S80) | 11.0<br>11.1<br>11.2, 11.2.1     | Apple Watch Series 4 40mm<br>Apple Watch Series 4 44mm<br>Apple Watch Series 5 40mm<br>Apple Watch Series 5 44mm |
+| watchOS 6.0 (17R566)<br><br>watchOS 6.1 (17S80) | 11.0<br>11.1<br>11.2, 11.2.1, 11.3_beta    | Apple Watch Series 4 40mm<br>Apple Watch Series 4 44mm<br>Apple Watch Series 5 40mm<br>Apple Watch Series 5 44mm |
 
 
 #### How to install additional simulators?
@@ -306,7 +307,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Visual Studio for Mac
 
-- 8.3.8.8
+- 8.3.10.2
 
 
 ### Mono
