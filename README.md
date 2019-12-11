@@ -1,57 +1,16 @@
-THIS NEEDS TO BE REVISITED, MENTION THIS IN PR.
 # ![Azure Pipelines](/help/resources/DevOpsIconPipelines40.png "Azure Pipelines") Azure Pipelines VM images for Microsoft-hosted CI/CD
 
 ## Overview
 
-This repo contains scripts that generate the Linux and Windows virtual machine images used by [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/?nav=min) for [Microsoft-hosted CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=vsts&tabs=yaml). The macOS image scripts are not kept here, but its contents are documented here. The images are generated using [Packer](https://www.packer.io/).
+This repo contains scripts that generate the Windows Container virtual machine images used by [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/?nav=min) for [Microsoft-hosted CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=vsts&tabs=yaml).The images are generated using [Packer](https://www.packer.io/).
 
 ## Following image updates
-You can follow releases [here](https://github.com/Microsoft/azure-pipelines-image-generation/releases). Consider enabling **Watch -> Releases only** at the top of the page.
+You can follow the progress of image releases [here](https://msit.powerbi.com/groups/7a97a4cd-61bb-454a-acb1-3c2e79dad16b/reports/db203275-ac24-4a74-8411-157cd9cf3d71/ReportSection?ctid=72f988bf-86f1-41af-91ab-2d7cd011db47&openReportSource=ReportInvitation).
 
-## Notifications
-Subscribe to [this RSS feed](https://microsoft.github.io/azure-pipelines-image-generation/) to be notified of upcoming image changes and other important messages. General Azure Pipelines service health is found [here](https://status.dev.azure.com/).
-
-# Image contents
-Images that have badges can be clicked on to see the latest contents for that version of the image.
-Images that are partially deployed have a yellow badge with a percentage indicating how far this image has been deployed across Azure Pipelines.
-
-- [macOS 10.13](images/macos/macos-10.13-Readme.md)
-- [macOS 10.14](images/macos/macos-10.14-Readme.md)
-- Ubuntu 16.04 [![](https://aka.ms/image_gen_status?imageName=Ubuntu16&badge=1&azp=1)](https://aka.ms/image_gen_status?imageName=Ubuntu16&redirect=1&azp=1)
-- Ubuntu 18.04 [![](https://aka.ms/image_gen_status?imageName=Ubuntu18&badge=1&azp=1)](https://aka.ms/image_gen_status?imageName=Ubuntu18&redirect=1&azp=1)
-- VS 2019 + Windows Server 2019 [![](https://aka.ms/image_gen_status?imageName=windows-2019-vs2019&badge=1&azp=1)](https://aka.ms/image_gen_status?imageName=windows-2019-vs2019&redirect=1&azp=1)
-- VS 2017 + Windows Server 2016 [![](https://aka.ms/image_gen_status?imageName=VS2017&badge=1&azp=1)](https://aka.ms/image_gen_status?imageName=VS2017&redirect=1&azp=1)
-- [VS 2015 + Windows Server 2012 R2](images/win/Vs2015-Server2012R2-Readme.md)
-- Windows Container 1803 [![](https://aka.ms/image_gen_status?imageName=WINCON&badge=1&azp=1)](https://aka.ms/image_gen_status?imageName=WINCON&redirect=1&azp=1)
 
 ## Issues and requests
 
-If you have an issue or request for an image, please create an issue in this repo. To add or change a tool yourself, see [Contributing](#contributing).
-
-## Image generation help
-
-### Linux
-
-- [How to use Packer to create Linux VM images in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/build-image-with-packer)
-
-### Windows
-
-- [Instructions to build Windows images](/help/CreateImageAndAzureResources.md)
-- [How to use Packer to create Windows VM images in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/build-image-with-packer)
-
-## Contributing
-
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
-
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+If you have an issue or request for an image, please create an issue in the [virtual-environments](https://github.com/actions/virtual-environments) repo.
 
 ## Legal Notices
 
