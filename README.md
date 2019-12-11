@@ -1,4 +1,4 @@
-
+THIS NEEDS TO BE REVISITED, MENTION THIS IN PR.
 # ![Azure Pipelines](/help/resources/DevOpsIconPipelines40.png "Azure Pipelines") Azure Pipelines VM images for Microsoft-hosted CI/CD
 
 ## Overview
