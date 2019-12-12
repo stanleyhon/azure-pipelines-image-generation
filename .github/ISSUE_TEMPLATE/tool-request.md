@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+<!--- PLEASE USE THIS REPO FOR REQUESTS RELATED TO THE WINDOWS CONTAINER IMAGE -->
+<!--- The other images have moved to https://github.com/actions/virtual-environments -->
+
 **Tool information**
 - Tool name: <!--- name -->
 - Add or update? <!--- add or update? -->
@@ -38,7 +41,9 @@ assignees: ''
 - [ ] Other
 
 **Image impacted**
-Add the appropriate label for the image or images that should be updated (e.g., macOS 10.13, macOS 10.14, ubuntu, VS2017, VS2019, WINCON).
+WINCON
+<!--- PLEASE USE THIS REPO FOR REQUESTS RELATED TO THE WINDOWS CONTAINER IMAGE -->
+<!--- The other images have moved to https://github.com/actions/virtual-environments -->
 
 **Workaround**
 <!--- Are there any workarounds (e.g. install during the build even though it adds time to the build)? -->
