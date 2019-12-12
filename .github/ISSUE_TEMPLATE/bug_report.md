@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+<!--- PLEASE USE THIS REPO FOR REQUESTS RELATED TO THE WINDOWS CONTAINER IMAGE -->
+<!--- The other images have moved to https://github.com/actions/virtual-environments -->
+
 **Describe the bug**
 A clear and concise description of what the bug is, and why you consider it to be a bug.
 
@@ -20,4 +23,6 @@ A description with steps to reproduce the issue.
 2. Step 2
 
 **Image impacted**
-Add a label for each image that has the bug (e.g., ubuntu, mac, window)
+WINCON
+<!--- PLEASE USE THIS REPO FOR REQUESTS RELATED TO THE WINDOWS CONTAINER IMAGE -->
+<!--- The other images have moved to https://github.com/actions/virtual-environments -->
