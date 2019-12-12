@@ -2,24 +2,16 @@
 
 ## Overview
 
-This repo contains scripts that generate the Windows Container virtual machine images used by [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/?nav=min) for [Microsoft-hosted CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=vsts&tabs=yaml).The images are generated using [Packer](https://www.packer.io/).
+This repo contains scripts that generate the Windows Container virtual machine image used by [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/?nav=min) for [Microsoft-hosted CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=vsts&tabs=yaml).The images are generated using [Packer](https://www.packer.io/).
 
 ## Following image updates
-You can follow the progress of image releases [here](https://msit.powerbi.com/groups/7a97a4cd-61bb-454a-acb1-3c2e79dad16b/reports/db203275-ac24-4a74-8411-157cd9cf3d71/ReportSection?ctid=72f988bf-86f1-41af-91ab-2d7cd011db47&openReportSource=ReportInvitation).
-
+You can follow releases for the Windows Container virtual machine image [here](https://github.com/Microsoft/azure-pipelines-image-generation/releases). Consider enabling **Watch -> Releases only** at the top of the page.
 
 ## Issues and requests
-
 If you have an issue or request for an image, please create an issue in the [virtual-environments](https://github.com/actions/virtual-environments) repo.
 
 
 ## Contributing	
- @kaylangan
-kaylangan 5 minutes ago Member
-Let's keep this section
-
-@shadyysf	Reply…
-
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a	
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us	
 the rights to use your contribution. For details, visit https://cla.microsoft.com.	
