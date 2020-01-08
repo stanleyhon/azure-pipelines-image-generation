@@ -2,7 +2,7 @@
 
 The following software is installed on machines in the Azure Pipelines **macOS-10.14** VM image ('Hosted macOS' pool).
 
-#### Xcode 11.1 set by default
+#### Xcode 11.2.1 set by default
 
 ## Operating System
 
