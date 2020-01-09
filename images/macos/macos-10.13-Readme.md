@@ -6,7 +6,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 ## Operating System
 
-- OS X 10.13.6 (17G9016) **High Sierra**
+- OS X 10.13.6 (17G10021) **High Sierra**
 
 ## Installed Software
 
@@ -21,25 +21,25 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - NVM 0.33.11
 - NVM - Installed node versions:
 	v6.17.1
-	v8.16.2
-	v10.17.0
-	v12.13.1
-	v13.3.0
+	v8.17.0
+	v10.18.0
+	v12.14.0
+	v13.5.0
 - PowerShell 6.2.3
 - Python 2.7.17
-- Python 3.7.5
+- Python 3.7.6
 - Ruby 2.6.5p114
 - .NET Core SDK 1.0.1, 1.0.4, 1.1.4, 1.1.5, 1.1.7, 1.1.8, 1.1.9, 1.1.10, 1.1.11, 1.1.12, 1.1.13, 2.0.0, 2.0.3, 2.1.100, 2.1.101, 2.1.102, 2.1.103, 2.1.104, 2.1.105, 2.1.503, 2.1.504, 2.1.505, 2.1.2, 2.1.200, 2.1.201, 2.1.300, 2.1.301, 2.1.4, 2.1.400, 2.1.401 2.1.402 2.1.502, 2.1.504, 2.2.101, 2.2.102, 2.2.103, 2.2.104, 2.2.105
-- Go 1.13.4
+- Go 1.13.5
 
 ### Package Management
 
-- Bundler 2.0.2
+- Bundler 2.1.3
 - Carthage 0.34.0
 - CocoaPods 1.8.4
-- Homebrew 2.2.0
+- Homebrew 2.2.2
 - NPM 3.10.10
-- Yarn 1.19.2
+- Yarn 1.21.2
 - NuGet 4.7.0.5148
 - pip 19.3.1(python 2.7)
 - pip 19.3.1(python 3.7)
@@ -53,18 +53,23 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 ### Utilities
 
 - curl 7.67.0 (x86_64-apple-darwin17.7.0) libcurl/7.67.0 SecureTransport zlib/1.2.11
-- Git 2.24.0
-- Git LFS 2.8.0
+- Git 2.24.1
+- Git LFS 2.9.2
 - GNU Wget 1.20.3
 - Subversion (SVN) 1.12.2
-- GNU parallel 20191122
+- GNU parallel 20191222
 
 ### Tools
 
-- fastlane 2.137.0
+- fastlane 2.139.0
 - App Center CLI 1.2.2
-- Azure-CLI 2.0.77
-- CMake 3.15.5
+- Azure-CLI 2.0.78
+- CMake 3.16.2
+
+### Browsers
+
+- Google Chrome 79.0.3945.88
+- ChromeDriver 79.0.3945.36
 
 ### Pre-cached tools
 - Python (available through the [Use Python Version](https://go.microsoft.com/fwlink/?linkid=871498) task)
@@ -100,7 +105,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - Nomad CLI 3.0.6
 - Nomad CLI IPA 0.14.3
 - xcpretty 0.3.0
-- xctool 0.3.5
+- xctool 0.3.7
 - xcversion 2.6.2
 
 ### Installed SDKs
@@ -289,7 +294,7 @@ xcversion simulators --install='iOS 8.4'
 | lldb                  | 3.1.4508709                               |
 | ndk-bundle            | 18.1.5063045                              |
 | ProGuard              | 5.3.3                                     |
-| Android Emulator      | 29.2.11                                    |
+| Android Emulator      | 29.3.2                                    |
 
 ### Google APIs
 
@@ -313,7 +318,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Visual Studio for Mac
 
-- 8.3.10.2
+- 8.3.11.1
 
 ### Mono
 
@@ -324,9 +329,7 @@ xcversion simulators --install='iOS 8.4'
 - 5.12.0
 - 5.10.1
 - 5.8.1
-- 5.8.0
 - 5.4.1.7
-- 5.4.0.201
 - 5.2.0.224
 - 5.0.1.1
 - 4.8.1.0
@@ -340,7 +343,6 @@ xcversion simulators --install='iOS 8.4'
 - 12.8.0.2
 - 12.6.0.25
 - 12.2.1.16
-- 12.2.1.11
 - 12.0.0.15
 - 11.14.0.13
 - 11.12.0.4
@@ -356,16 +358,13 @@ xcversion simulators --install='iOS 8.4'
 ### Xamarin.Android SDK
 
 - 10.0.6.2
-- 10.0.3.0
 - 9.4.1.0
 - 9.3.0-23
 - 9.2.3-0
 - 9.1.8-0
 - 9.0.0-20
-- 9.0.0-18
 - 8.3.3-2
 - 8.2.0-16
-- 8.2.0-15
 - 8.1.5-0
 - 8.0.0-33
 - 7.4.5-1
@@ -382,11 +381,9 @@ xcversion simulators --install='iOS 8.4'
 - 5.6.0.25
 - 5.3.1.28
 - 5.2.1.16
-- 5.2.1.9
 - 4.6.0.13
 - 4.4.1.193
 - 4.2.1.28
-- 4.2.0.20
 - 4.0.0.216
 - 3.8.0.49
 - 3.6.3.3
