@@ -4,6 +4,8 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 #### Xcode 11.2.1 set by default
 
+:warning: Xcode 11.3.1 will be set as default in two weeks
+
 ## Operating System
 
 - OS X 10.14.6 (18G2022) **Mojave**
@@ -22,20 +24,20 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 - NVM - Installed node versions:
 	v6.17.1
 	v8.17.0
-	v10.18.0
-	v12.14.0
-	v13.5.0
+	v10.18.1
+	v12.14.1
+	v13.6.0
 - PowerShell 6.2.3
 - Python 2.7.17
 - Python 3.7.6
 - Ruby 2.6.5p114
 - .NET Core SDK 1.0.1 1.0.4 1.1.10 1.1.11 1.1.12 1.1.13 1.1.4 1.1.5 1.1.7 1.1.8 1.1.9 2.0.0 2.0.3 2.1.100 2.1.101 2.1.102 2.1.103 2.1.104 2.1.105 2.1.2 2.1.200 2.1.201 2.1.202 2.1.300 2.1.301 2.1.302 2.1.4 2.1.400 2.1.401 2.1.402 2.1.403 2.1.500 2.1.502 2.1.503 2.1.504 2.1.505 2.2.100 2.2.101 2.2.102 2.2.103 2.2.104 2.2.105
-- Go 1.13.5
+- Go 1.13.6
 
 
 ### Package Management
 
-- Bundler 2.1.3
+- Bundler 2.1.4
 - Carthage 0.34.0
 - CocoaPods 1.8.4
 - Homebrew 2.2.2
@@ -53,7 +55,7 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 ### Utilities
 
-- curl 7.67.0 (x86_64-apple-darwin17.7.0) libcurl/7.67.0 SecureTransport zlib/1.2.11)
+- curl 7.68.0 (x86_64-apple-darwin18.7.0) libcurl/7.68.0 SecureTransport zlib/1.2.11
 - Git 2.24.1
 - Git LFS 2.9.2
 - GNU Wget 1.20.3 built on darwin18.7.0
@@ -62,30 +64,30 @@ The following software is installed on machines in the Azure Pipelines **macOS-1
 
 ### Tools
 
-- fastlane 2.139.0
+- fastlane 2.140.0
 - App Center CLI 1.2.2
-- Azure-CLI 2.0.78
+- Azure-CLI 2.0.79
 - CMake 3.16.2
 
 ### Browsers
 
-- Google Chrome 79.0.3945.88
+- Google Chrome 79.0.3945.117
 - ChromeDriver 79.0.3945.36
 
 ### Pre-cached tools
 
 - Python (available through the [Use Python Version](https://go.microsoft.com/fwlink/?linkid=871498) task)
-  - 2.7.16
-  - 3.5.7
-  - 3.6.9
-  - 3.7.5
-  - 3.8.0
+  - 2.7.17
+  - 3.5.9
+  - 3.6.10
+  - 3.7.6
+  - 3.8.1
   - pypy2
   - pypy3
 - Ruby (available through the [Use Ruby Version](https://go.microsoft.com/fwlink/?linkid=2005989) task)
-  - 2.4.6
-  - 2.5.5
-  - 2.6.3
+  - 2.4.9
+  - 2.5.7
+  - 2.6.5
 
 ### Xcode
 
@@ -287,7 +289,7 @@ xcversion simulators --install='iOS 8.4'
 | lldb                  | 2.3.3614996                               |
 | ndk-bundle            | 18.1.5063045                              |
 | ProGuard              | 5.3.3                                     |
-| Android Emulator      | 29.3.2                                    |
+| Android Emulator      | 29.3.4                                    |
 
 ### Google APIs
 
@@ -311,11 +313,12 @@ xcversion simulators --install='iOS 8.4'
 
 ### Visual Studio for Mac
 
-- 8.3.11.1
+- 8.4.0.2657
 
 
 ### Mono
 
+- 6.6.0
 - 6.4.0
 - 6.0.0
 - 5.18.1
@@ -330,6 +333,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Xamarin.iOS SDK
 
+- 13.8.3.0
 - 13.6.0.12
 - 13.4.0.2
 - 13.2.0.47
@@ -352,6 +356,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Xamarin.Android SDK
 
+- 10.1.1.0
 - 10.0.6.2
 - 9.4.1.0
 - 9.3.0-23
@@ -368,6 +373,7 @@ xcversion simulators --install='iOS 8.4'
 
 ### Xamarin.Mac SDK
 
+- 6.8.3.0
 - 6.6.0.12
 - 6.4.0.2
 - 6.2.0.47
